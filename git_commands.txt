@@ -25,6 +25,8 @@ Files to version control in current folder
 	git reset --hard HEAD^
 	    -- this command will discard any changes in local repository and copy too. 
 
+	git reset HEAD <file>..." to unstage
+
 
 Settings for GitHub
 	 git remote add origin https://github.com/gitrookie/gitpoject.git
