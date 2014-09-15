@@ -1,0 +1,19 @@
+Configure Git
+	git config --global user.name "gaurav sood"
+	git config --global user.email "gaurav3184@gmail.com"
+	
+Files to version control in current folder
+	git add .      Commnet: it will add all the files under version control
+	git add <filename>  commment: it will add the specified file. Files will go to staging area. 
+	git rm --cached <filename>  comment: files will be removed from staging area
+	git commit -m "Initial Commit" comment: files will be commited to local repository
+	git log  comment: Status of the file
+	git status comment:
+	Edit the readme file
+	git add
+	git commit -m "Changed readme"
+	git diff (Shows the difference between commited file and modified file (not yet staged)
+	git diff --cached (Shows the difference between commited file and staged file)
+	git log --oneline  (remove extra details)
+	git commit -a -m ""  commit and stage in single command
+	git status -s   comment: what has been modified shorthand (remove extra details)
