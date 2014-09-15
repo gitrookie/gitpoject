@@ -17,6 +17,14 @@ Files to version control in current folder
 	git log --oneline  (remove extra details)
 	git commit -a -m ""  commit and stage in single command
 	git status -s   comment: what has been modified shorthand (remove extra details)
+	git reset --soft HEAD^
+	     -- suppose we committed something to repository and later we realized that we dont want that changes
+	        Above comman will revert the changes in local repository and that changes will be moved to saging area
+		Local copy will still have that changes too.
+
+	git reset --hard HEAD^
+	    -- this command will discard any changes in local repository and copy too. 
+
 
 Settings for GitHub
 	 git remote add origin https://github.com/gitrookie/gitpoject.git
@@ -25,3 +33,4 @@ Settings for GitHub
 
 	 git push origin master
 	     -- push contents to repository at GitHub
+
