@@ -27,6 +27,21 @@ Files to version control in current folder
 
 	git reset HEAD <file>..." to unstage (git status will show again the file in red color from green)
 
+    git checkout <branch_name>
+        -- To switch between branches.
+
+    git branch <branch_name>
+        -- Creates a branch named iss53. When branching its better to have things clean.
+    
+    git checkout -b <branch_name>
+        -- Creates a brach named <branch_name> and switches to it.
+
+    git merge <branch_name>
+        -- Merges <branch_name> with master
+
+    git branch -d <branch_name>
+        -- After the branch <branch_name> has been merged with master it can be deleted using above command
+
 
 Settings for GitHub
 	 git remote add origin https://github.com/gitrookie/gitpoject.git
