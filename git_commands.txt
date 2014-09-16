@@ -6,6 +6,8 @@ Files to version control in current folder
 	git add .      Commnet: it will add all the files to the staging are (modified and untracked files)
 	git add <filename>  commment: it will add the specified file. Files will go to staging area. 
 	git rm --cached <filename>  comment: files will be removed from staging area
+    git checkout -- <file>
+        -- To discard changes in file in working directory (if the changes are not staged yet.*)
 	git commit -m "Initial Commit" comment: files will be commited to local repository
 	git log  comment: Status of the file
 	git status comment:
@@ -26,6 +28,9 @@ Files to version control in current folder
 	    -- this command will discard any changes in local repository and copy too. 
 
 	git reset HEAD <file>..." to unstage (git status will show again the file in red color from green)
+
+    git branch
+        -- list all the branches present in the repository. Highlights current branch we are in.
 
     git checkout <branch_name>
         -- To switch between branches.
@@ -49,7 +54,10 @@ Settings for GitHub
 	     -- gitproject is name of project
 
 	 git push origin master
-	     -- push contents to repository at GitHub
+	     -- push contents of master branch to repository at GitHub
+
+     git push origin <branch_name>
+         -- push contents of <branch_name> to repository at GitHub
 
 	 git clone https://github.com/gitrookie/gitpoject.git 
 	     -- copy the whole repository from GitHub
