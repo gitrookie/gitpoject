@@ -25,7 +25,7 @@ Files to version control in current folder
 	git reset --hard HEAD^
 	    -- this command will discard any changes in local repository and copy too. 
 
-	git reset HEAD <file>..." to unstage
+	git reset HEAD <file>..." to unstage (git status will show again the file in red color from green)
 
 
 Settings for GitHub
@@ -35,4 +35,7 @@ Settings for GitHub
 
 	 git push origin master
 	     -- push contents to repository at GitHub
+
+	 git clone https://github.com/gitrookie/gitpoject.git 
+	     -- copy the whole repository from GitHub
 
