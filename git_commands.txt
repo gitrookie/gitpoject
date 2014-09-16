@@ -62,3 +62,5 @@ Settings for GitHub
 	 git clone https://github.com/gitrookie/gitpoject.git 
 	     -- copy the whole repository from GitHub
 
+     git push origin --delete <branch_name>
+         -- Delte the branch from github which has been deleted from the local repository.
